@@ -1,4 +1,4 @@
-import { Awaitable, ListenerOption } from "@loop/typings";
+import { Awaitable, ListenerOption } from "@bot/typings";
 import { BotClient } from "./Client";
 
 export abstract class Listener {

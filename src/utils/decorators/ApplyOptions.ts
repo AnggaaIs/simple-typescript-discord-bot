@@ -1,5 +1,5 @@
-import { BotClient } from "@loop/structures/Client";
-import { ValidOptionsForDecorator } from "@loop/typings";
+import { BotClient } from "@bot/structures/Client";
+import { ValidOptionsForDecorator } from "@bot/typings";
 import { classForDecorator } from "..";
 
 export function ApplyOptions<T extends ValidOptionsForDecorator>(

@@ -1,9 +1,9 @@
-import { Command } from "@loop/structures/Command";
-import { CommandContext } from "@loop/structures/CommandContext";
+import { Command } from "@bot/structures/Command";
+import { CommandContext } from "@bot/structures/CommandContext";
 
-import { CommandOption } from "@loop/typings";
-import { EmbedColors } from "@loop/utils/Constants";
-import { ApplyOptions } from "@loop/utils/decorators/ApplyOptions";
+import { CommandOption } from "@bot/typings";
+import { EmbedColors } from "@bot/utils/Constants";
+import { ApplyOptions } from "@bot/utils/decorators/ApplyOptions";
 import { MessageEmbed } from "discord.js";
 
 @ApplyOptions<CommandOption>({

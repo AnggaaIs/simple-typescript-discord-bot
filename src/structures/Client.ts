@@ -1,11 +1,11 @@
 import { Client, ClientOptions, Collection } from "discord.js";
 import { LoopLogger } from "./Logger";
 
-import config from "@loop/config";
+import config from "@bot/config";
 import { join } from "node:path";
 import ListenerManager from "./managers/Listener";
 import CommandManager from "./managers/Command";
-import { DatabaseManager } from "@loop/database/Manager";
+import { DatabaseManager } from "@bot/database/Manager";
 
 const listenerFolder = join(__dirname, "../listeners");
 const commandFolder = join(__dirname, "../commands");

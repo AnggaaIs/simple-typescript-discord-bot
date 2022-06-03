@@ -1,7 +1,7 @@
-import { CommandContext } from "@loop/structures/CommandContext";
-import { Listener } from "@loop/structures/Listener";
-import { ListenerOption } from "@loop/typings";
-import { ApplyOptions } from "@loop/utils/decorators/ApplyOptions";
+import { CommandContext } from "@bot/structures/CommandContext";
+import { Listener } from "@bot/structures/Listener";
+import { ListenerOption } from "@bot/typings";
+import { ApplyOptions } from "@bot/utils/decorators/ApplyOptions";
 import { Collection, Interaction, TextChannel } from "discord.js";
 
 @ApplyOptions<ListenerOption>({

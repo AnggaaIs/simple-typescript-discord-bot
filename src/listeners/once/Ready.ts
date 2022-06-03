@@ -1,7 +1,7 @@
-import { Listener } from "@loop/structures/Listener";
-import { ListenerOption } from "@loop/typings";
-import { syncApplicationCommands } from "@loop/utils";
-import { ApplyOptions } from "@loop/utils/decorators/ApplyOptions";
+import { Listener } from "@bot/structures/Listener";
+import { ListenerOption } from "@bot/typings";
+import { syncApplicationCommands } from "@bot/utils";
+import { ApplyOptions } from "@bot/utils/decorators/ApplyOptions";
 
 @ApplyOptions<ListenerOption>({
   name: "ready",

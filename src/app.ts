@@ -1,4 +1,4 @@
-import { BotClient } from "@loop/structures/Client";
+import { BotClient } from "@bot/structures/Client";
 import { Intents } from "discord.js";
 
 const client = new BotClient({

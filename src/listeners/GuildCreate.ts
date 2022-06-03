@@ -1,6 +1,6 @@
-import { Listener } from "@loop/structures/Listener";
-import { ListenerOption } from "@loop/typings";
-import { ApplyOptions } from "@loop/utils/decorators/ApplyOptions";
+import { Listener } from "@bot/structures/Listener";
+import { ListenerOption } from "@bot/typings";
+import { ApplyOptions } from "@bot/utils/decorators/ApplyOptions";
 import { Guild } from "discord.js";
 
 @ApplyOptions<ListenerOption>({

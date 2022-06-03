@@ -1,4 +1,4 @@
-import { CommandContextReplyOption, MessageInteractionAction } from "@loop/typings";
+import { CommandContextReplyOption, MessageInteractionAction } from "@bot/typings";
 import { CommandInteraction, InteractionReplyOptions, PermissionString } from "discord.js";
 import { BotClient } from "./Client";
 

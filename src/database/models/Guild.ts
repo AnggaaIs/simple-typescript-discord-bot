@@ -1,5 +1,5 @@
-import config from "@loop/config";
-import { GuildData } from "@loop/typings";
+import config from "@bot/config";
+import { GuildData } from "@bot/typings";
 import { model, Schema } from "mongoose";
 
 const GuildModel = new Schema<GuildData>({

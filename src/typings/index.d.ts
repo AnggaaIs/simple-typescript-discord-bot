@@ -1,5 +1,3 @@
-import { InteractionCommandContext } from "@loop/structures/CommandContext";
-import { RegularCommandContext } from "./RegularCommandContext";
 import {
   ApplicationCommandOptionData,
   ClientEvents,

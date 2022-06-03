@@ -1,4 +1,4 @@
-import { Awaitable, CommandOption } from "@loop/typings";
+import { Awaitable, CommandOption } from "@bot/typings";
 import { BotClient } from "./Client";
 import { CommandContext } from "./CommandContext";
 
