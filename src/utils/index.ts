@@ -33,7 +33,7 @@ export async function syncApplicationCommands(client: BotClient): Promise<void> 
       options: cmd.options.options || [],
     };
 
-    if (cmd.options.devOnly) continue;
+    if (isProduction() && cmd.options.devOnly) continue;
     filteredCommands.push(option);
   }
 
